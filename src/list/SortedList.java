@@ -4,7 +4,7 @@ package list;
  * Generic base for sorted list implementation.
  * @param <S> comparable list element
  */
-public interface SortedList<S extends Comparable<S>> {
+ interface SortedList<S extends Comparable<S>> {
     /**
      * Inserts an element at the corrected position
      * @param element new list element
@@ -30,4 +30,7 @@ public interface SortedList<S extends Comparable<S>> {
      * @return size of the list
      */
     int size();
+
+
+
 }
