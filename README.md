@@ -31,11 +31,11 @@ totally fine.
 ## Questions
 * How can you change the ordering of the list? From ascending 
 to descending. Name at least two different methods.
-* Can the inner Node class be static? Justify your answer.
+* Can the inner Node class be static? Justify your answer.**->no? when static all other methods should be static too to grand futher access?**
 * Can you name the generic placeholder `Placeholder` instead of
-`T`? If yes should you, do it?
-* Which benefits does this data structure have?
-* Which drawbacks does it have? Name a use case.
+`T`? If yes should you, do it? **-> yes, it's possible to use what you want, but to avoid possible assignment errors you shouldn't do it**
+* Which benefits does this data structure have? **-> the linked list is sorted from the beginning**
+* Which drawbacks does it have? Name a use case. **-> sry, don't know**
 ---
 > **NOTES:**
 Write readable and good code. Do not repeate yourself use final,
